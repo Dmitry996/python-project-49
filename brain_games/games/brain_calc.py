@@ -17,7 +17,9 @@ def calc(first, symbol, second):
 def main():
     print('Welcome to the Brain Games!')
     name = welcome_user()
+
     print('What is the result of the expression?')
+    
     round = 0
 
     while round < 3:
