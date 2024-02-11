@@ -1,4 +1,7 @@
-def engine(answer, right_answer, name):
+def engine(question, right_answer, name):
+    print(f'Question: {question}')
+    answer = input('Your answer: ')
+
     if answer == right_answer:
         print('Correct!')
         return True

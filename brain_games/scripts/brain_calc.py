@@ -16,9 +16,7 @@ def calc(first, symbol, second):
 
 def brain_calc():
     name = greeting()
-
     print('What is the result of the expression?')
-
     count = 0
 
     while count < 3:
@@ -27,13 +25,8 @@ def brain_calc():
         symbol = choice(symbol_set)
 
         question = f'{random_numb_first} {symbol} {random_numb_second}'
-        print(f'Question: {question}')
-
         right_answer = calc(random_numb_first, symbol, random_numb_second)
-        user_answer = int(input('Your answer: '))
-
-        flag = engine(user_answer, right_answer, name)
-
+        flag = engine(question, right_answer, name)
         if not flag:
             return None
 
