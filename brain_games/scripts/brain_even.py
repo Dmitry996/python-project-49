@@ -1,28 +1,25 @@
 from random import randint
 from brain_games.scripts.brain_games import greeting
+from brain_games.engine import engine
 
 
 def brain_even():
     name = greeting()
-
     print('Answer "yes" if the number is even, otherwise answer "no"')
-
     count = 0
 
     while count < 3:
-        random_numb = randint(1, 100)
-        print(f'Question: {random_numb}')
+        question = randint(1, 100)
+        print(f'Question: {question}')
 
-        answer = input('Your answer: ')
-        right_answer = 'yes' if random_numb % 2 == 0 else "no"
+        user_answer = input('Your answer: ')
+        right_answer = 'yes' if question % 2 == 0 else "no"
 
-        if right_answer != answer:
-            print(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{right_answer}'.")
-            print("Let's try again, Bill!")
+        flag = engine(user_answer, right_answer, name)
+
+        if not flag:
             return None
 
-        print('Correct!')
         count += 1
     print(f'Congratulations, {name}')
 
