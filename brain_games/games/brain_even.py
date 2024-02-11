@@ -7,7 +7,7 @@ def main():
     print('Welcome to the Brain Games!')
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    
+
     round = 0
 
     while round < 3:
@@ -17,7 +17,7 @@ def main():
         if not flag:
             return None
         round += 1
-    print(f'Congratulations, {name}')
+    print(f'Congratulations, {name}!')
 
 
 if __name__ == '__main__':

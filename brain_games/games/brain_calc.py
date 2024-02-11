@@ -19,7 +19,7 @@ def main():
     name = welcome_user()
 
     print('What is the result of the expression?')
-    
+
     round = 0
 
     while round < 3:
@@ -34,7 +34,7 @@ def main():
             return None
 
         round += 1
-    print(f'Congratulations, {name}')
+    print(f'Congratulations, {name}!')
 
 
 if __name__ == '__main__':
