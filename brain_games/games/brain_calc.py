@@ -27,7 +27,7 @@ def main():
 
         question = f'{random_numb_first} {symbol} {random_numb_second}'
         right_answer = str(calc(random_numb_first, symbol, random_numb_second))
-        flag = engine(question, right_answer)
+        flag = engine(question, right_answer, name)
         if not flag:
             return None
 

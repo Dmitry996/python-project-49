@@ -1,4 +1,4 @@
-def engine(question, right_answer):
+def engine(question, right_answer, name):
     print(f'Question: {question}')
     answer = input('Your answer: ')
 
@@ -8,4 +8,5 @@ def engine(question, right_answer):
     else:
         print(f"'{answer}' is wrong answer ;(."
               f"Correct answer was '{right_answer}'.")
+        print(f"Let's try again, {name}!")
         return False

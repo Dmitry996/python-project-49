@@ -11,7 +11,7 @@ def main():
     while round < 3:
         question = randint(1, 100)
         right_answer = 'yes' if question % 2 == 0 else "no"
-        flag = engine(question, right_answer)
+        flag = engine(question, right_answer, name)
         if not flag:
             return None
         round += 1
