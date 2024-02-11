@@ -1,7 +1,12 @@
-from math import gcd
 from random import randint
 from brain_games.cli import welcome_user
 from brain_games.engine import engine
+
+
+def gcd(first, second):  # НОД
+    while second > 0:
+        first, second = second, first % second
+    return first
 
 
 def main():
