@@ -6,7 +6,7 @@ from brain_games.engine import engine
 def main():
     print('Welcome to the Brain Games!')
     name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     
     round = 0
 

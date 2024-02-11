@@ -14,7 +14,7 @@ def is_prime(numb):
 def main():
     print('Welcome to the Brain Games!')
     name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no"')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     round = 0
     while round < 3:
         question = randint(2, 1000)
