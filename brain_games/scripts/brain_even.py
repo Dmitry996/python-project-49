@@ -1,25 +1,4 @@
-from random import randint
-from brain_games.scripts.brain_games import greeting
-from brain_games.engine import engine
-
-
-def brain_even():
-    name = greeting()
-    print('Answer "yes" if the number is even, otherwise answer "no"')
-    count = 0
-    while count < 3:
-        question = randint(1, 100)
-        right_answer = 'yes' if question % 2 == 0 else "no"
-        flag = engine(question, right_answer, name)
-        if not flag:
-            return None
-        count += 1
-    print(f'Congratulations, {name}')
-
-
-def main():
-    brain_even()
-
+from brain_games.games.brain_even import main
 
 if __name__ == '__main__':
     main()
