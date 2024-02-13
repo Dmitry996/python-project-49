@@ -2,5 +2,10 @@
 from brain_games.games import even
 from brain_games.game_engine import engine
 
-if __name__ == '__main__':
+
+def main():
     engine(even)
+
+
+if __name__ == '__main__':
+    main()
