@@ -4,6 +4,8 @@ MESSEGE = 'What number is missing in the progression?'
 
 
 def game():
+    """Функция создвет случайную равно возрастающую прогрессию чисел
+    и возвращает ее с пропущеным элементом и этот элемент отдельно."""
     begin = randint(1, 50)
     step = randint(2, 10)
     end = begin + step * 11  # Увеление длинный последовательности на 11
