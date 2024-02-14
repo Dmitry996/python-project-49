@@ -16,7 +16,6 @@ This project was built using these tools:
 ---
 
 ### Install
-## Install
 ```
 git clone https://github.com/Dmitry996/python-project-49
 cd python-project-49
