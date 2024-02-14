@@ -15,17 +15,25 @@ This project was built using these tools:
 
 ---
 
-# BRAIN-EVEN
+### Install
+## Install
+```
+git clone https://github.com/Dmitry996/python-project-49
+cd python-project-49
+make package-install
+```
+
+### BRAIN-EVEN
 [![asciicast](https://asciinema.org/a/nhgWu9qRndaVZlkEwW2MkVZyA.svg)](https://asciinema.org/a/nhgWu9qRndaVZlkEwW2MkVZyA)
 
-# BRAIN-CALC
+### BRAIN-CALC
 [![asciicast](https://asciinema.org/a/FTw7az6IGXZESG27y0KWD9gnq.svg)](https://asciinema.org/a/FTw7az6IGXZESG27y0KWD9gnq)
 
-# BRAIN-GCD
+### BRAIN-GCD
 [![asciicast](https://asciinema.org/a/LuktPrnHM8xUW77vKbWF768Vd.svg)](https://asciinema.org/a/LuktPrnHM8xUW77vKbWF768Vd)
 
-# BRAIN-PROGRISSION
+### BRAIN-PROGRISSION
 [![asciicast](https://asciinema.org/a/v5WX2jTm4XSLIEpJGftxecmrJ.svg)](https://asciinema.org/a/v5WX2jTm4XSLIEpJGftxecmrJ)
 
-# BRAIN-PRIME
+### BRAIN-PRIME
 [![asciicast](https://asciinema.org/a/vb8PCorYY5rdgNtCFkY3pJwUC.svg)](https://asciinema.org/a/vb8PCorYY5rdgNtCFkY3pJwUC)
