@@ -3,6 +3,18 @@
 
 <a href="https://codeclimate.com/github/Dmitry996/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/4829398cf99ea0a56d12/maintainability" /></a>
 
+### Links
+
+This project was built using these tools:
+
+| Tool                                                                        | Description                                             |
+|-----------------------------------------------------------------------------|---------------------------------------------------------|
+| [poetry](https://python-poetry.org/)                                        | "Python dependency management and packaging made easy"  |
+| [Py.Test](https://pytest.org)                                               | "A mature full-featured Python testing tool"            |
+| [flake8](https://flake8.pycqa.org/)                                         | "Your tool for style guide enforcement" |
+
+---
+
 [![asciicast](https://asciinema.org/a/nhgWu9qRndaVZlkEwW2MkVZyA.svg)](https://asciinema.org/a/nhgWu9qRndaVZlkEwW2MkVZyA)
 
 [![asciicast](https://asciinema.org/a/FTw7az6IGXZESG27y0KWD9gnq.svg)](https://asciinema.org/a/FTw7az6IGXZESG27y0KWD9gnq)
